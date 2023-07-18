@@ -9,7 +9,7 @@ aya-bpf = { path = "../../bpf/aya-bpf" }
 aya-log-ebpf = { path = "../../bpf/aya-log-ebpf" }
 
 [build-dependencies]
-xtask = { path = "../../xtask" }
+bpf-linker = { git = "https://github.com/aya-rs/bpf-linker.git", artifact = "bin" }
 
 [[bin]]
 name = "log"
